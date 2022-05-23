@@ -1,0 +1,12 @@
+{
+  "name": "@yarn-workspaces-turbo/webClient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@yarn-workspaces-turbo/adminClient":"1.0.0"
+  },
+  "scripts":{
+    "start":"node common.js"
+  }
+}

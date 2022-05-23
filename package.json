@@ -1,0 +1,16 @@
+{
+  "name": "yarn-workspaces-turbo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:janabhishek2/yarn-workspaces-turbo.git",
+  "author": "Abhishek Jan <abhishek.jan@sendinblue.com>",
+  "license": "MIT",
+  "private":true,
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts":{
+    "start":"yarn workspaces run start",
+    "info":"yarn workspaces info --json"
+  }
+}
